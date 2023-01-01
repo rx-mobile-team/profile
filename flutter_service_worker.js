@@ -12,7 +12,7 @@ const RESOURCES = {
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+"icons/Icon-192.png": "84ee8cc778c2a8d2cfe4f4a8555e5c7d",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "assets/AssetManifest.json": "bf80c3519dd1ed658c5152dffe02713c",
 "assets/shaders/ink_sparkle.frag": "ab4751ef630837e294889ca64470bb70",
@@ -54,9 +54,9 @@ const RESOURCES = {
 "assets/assets/svg/guy.svg": "384b0cd380b8ce087e170fe5b3dc7f6b",
 "assets/assets/svg/person.svg": "00abbb5ba3e0acac159c8a7a664b7750",
 "assets/NOTICES": "995e07ac07fa0dc621718c1af3b1b54f",
-"index.html": "55c4a36ca8dc1fb2d5ee0f564cd00dbd",
-"/": "55c4a36ca8dc1fb2d5ee0f564cd00dbd",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"index.html": "d5407419c3fa57be5a51aa72ee19e571",
+"/": "d5407419c3fa57be5a51aa72ee19e571",
+"favicon.png": "4ad382679d23817ab77850af6b0e4c34",
 "version.json": "251f90cc845a222bbea7f987fe933088"
 };
 
