@@ -169,7 +169,6 @@ class ProjectSection extends StatelessWidget {
                             Text(
                               projectModel.project,
                               style: GoogleFonts.josefinSans(
-                                color: kPrimaryColor,
                                 fontWeight: FontWeight.w900,
                                 fontSize: 18.0,
                               ),
@@ -180,7 +179,6 @@ class ProjectSection extends StatelessWidget {
                             Text(
                               projectModel.description,
                               style: const TextStyle(
-                                color: kCaptionColor,
                                 height: 1.5,
                                 fontSize: 15.0,
                               ),
@@ -219,7 +217,7 @@ class ProjectSection extends StatelessWidget {
                                   cursor: SystemMouseCursors.click,
                                   child: Container(
                                     decoration: BoxDecoration(
-                                      color: kPrimaryColor,
+                                      color: Theme.of(context).primaryColor,
                                       borderRadius: BorderRadius.circular(8.0),
                                     ),
                                     height: 48.0,
@@ -233,8 +231,7 @@ class ProjectSection extends StatelessWidget {
                                       child: Center(
                                         child: Text(
                                           (projectModel.buttonText ??
-                                                  "Explore MORE")
-                                              .toUpperCase(),
+                                                  'Explore MORE'),
                                           style: const TextStyle(
                                             fontSize: 13.0,
                                             fontWeight: FontWeight.bold,

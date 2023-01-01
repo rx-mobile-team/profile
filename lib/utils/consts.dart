@@ -59,7 +59,7 @@ const computerStoreImage = _projectsImages + "6.jpeg";
       TechnologyConstants.python,
       TechnologyConstants.razorPay
     ],
-    buttonText: 'ChPlay Link',
+    buttonText: 'Play Store Link',
   ),
   ProjectModel(
     project: 'GPS speedometer Track distance',
@@ -72,7 +72,7 @@ const computerStoreImage = _projectsImages + "6.jpeg";
       TechnologyConstants.swift,
       TechnologyConstants.sceneKit,
     ],
-    buttonText: 'ChPlay Link',
+    buttonText: 'Play Store Link',
   ),
   // ProjectModel(
   //   project: "Flutter App",

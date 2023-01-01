@@ -15,6 +15,8 @@ import 'package:hoc081098_portfolio/widgets/theme_switcher.dart';
 import 'package:rxdart_ext/rxdart_ext.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
+import 'widgets/footer.dart';
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
@@ -61,9 +63,12 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
             builder: (context, headerHeight) => SizedBox(height: headerHeight),
           ),
       () => ProjectSection(projects: projectsData),
-      () => const SizedBox(
-            height: 500,
+      () => RxStreamBuilder<double>(
+            stream: headerHeightS,
+            builder: (context, headerHeight) => SizedBox(height: headerHeight),
           ),
+      () => const Footer(),
+      () => const SizedBox(height: 150),
     ];
 
     return Scaffold(

@@ -59,10 +59,7 @@ class _DesktopHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.symmetric(vertical: 8),
-      child: _TabletHeader(),
-    );
+    return const _TabletHeader();
   }
 }
 
