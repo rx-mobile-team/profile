@@ -50,7 +50,14 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
             builder: (context, headerHeight) => SizedBox(height: headerHeight),
           ),
       () => const AboutSection(),
+          () => RxStreamBuilder<double>(
+        stream: headerHeightS,
+        builder: (context, headerHeight) => SizedBox(height: headerHeight),
+      ),
       () => const ServiceSection(),
+      () => const SizedBox(
+        height: 500,
+      ),
     ];
 
     return Scaffold(
