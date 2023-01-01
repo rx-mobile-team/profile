@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "main.dart.js": "5dfc1b0561293f8d4183e242bab6c4b4",
+  "main.dart.js": "cba9e87d34a95f54871dc7c75c7ee21b",
 "canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
 "canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
@@ -14,7 +14,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
-"assets/AssetManifest.json": "a0cd40133c6e6fb9f6d1926ae7d3be2c",
+"assets/AssetManifest.json": "bf80c3519dd1ed658c5152dffe02713c",
 "assets/shaders/ink_sparkle.frag": "ab4751ef630837e294889ca64470bb70",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
@@ -47,13 +47,15 @@ const RESOURCES = {
 "assets/assets/images/social/email.png": "7a97194d3c075caa1a2f2fb89f793d4e",
 "assets/assets/images/social/linkedin-logo.png": "95e6c045dd5f8ea3ed14fc2de308d115",
 "assets/assets/images/social/instagram.png": "4f7cb5fbb28d0f9ddc97641f8b288735",
+"assets/assets/images/ic_remote_app.jpg": "6cfe123450d5e7306ef9494ffc223114",
+"assets/assets/images/ic_launcher-playstore.png": "bf3713c69151ac0013ba34bacabc0ea5",
 "assets/assets/images/blog.png": "383501168390c3833d9c81843c33d566",
 "assets/assets/images/logo.jpeg": "62119ce875ef90d0bf676987ea633478",
 "assets/assets/svg/guy.svg": "384b0cd380b8ce087e170fe5b3dc7f6b",
 "assets/assets/svg/person.svg": "00abbb5ba3e0acac159c8a7a664b7750",
 "assets/NOTICES": "995e07ac07fa0dc621718c1af3b1b54f",
-"index.html": "021ec7c51093a3122a625461ed4c2e93",
-"/": "021ec7c51093a3122a625461ed4c2e93",
+"index.html": "080beb4c4e06d2d3a30d444c86158267",
+"/": "080beb4c4e06d2d3a30d444c86158267",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "251f90cc845a222bbea7f987fe933088"
 };
