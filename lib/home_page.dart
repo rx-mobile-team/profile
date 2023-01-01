@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_pattern/flutter_bloc_pattern.dart';
+import 'package:flutter_disposebag/flutter_disposebag.dart';
 import 'package:flutter_provider/flutter_provider.dart';
 import 'package:hoc081098_portfolio/home_bloc.dart';
+import 'package:hoc081098_portfolio/utils/consts.dart';
 import 'package:hoc081098_portfolio/utils/globals.dart';
-import 'package:hoc081098_portfolio/utils/screen_helper.dart';
 import 'package:hoc081098_portfolio/widgets/about.dart';
 import 'package:hoc081098_portfolio/widgets/header.dart';
 import 'package:hoc081098_portfolio/widgets/home_info.dart';
 import 'package:hoc081098_portfolio/widgets/measure_size.dart';
+import 'package:hoc081098_portfolio/widgets/project.dart';
 import 'package:hoc081098_portfolio/widgets/service.dart';
 import 'package:hoc081098_portfolio/widgets/theme_switcher.dart';
 import 'package:rxdart_ext/rxdart_ext.dart';
-import 'package:flutter_disposebag/flutter_disposebag.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -50,14 +51,19 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
             builder: (context, headerHeight) => SizedBox(height: headerHeight),
           ),
       () => const AboutSection(),
-          () => RxStreamBuilder<double>(
-        stream: headerHeightS,
-        builder: (context, headerHeight) => SizedBox(height: headerHeight),
-      ),
+      () => RxStreamBuilder<double>(
+            stream: headerHeightS,
+            builder: (context, headerHeight) => SizedBox(height: headerHeight),
+          ),
       () => const ServiceSection(),
+      () => RxStreamBuilder<double>(
+            stream: headerHeightS,
+            builder: (context, headerHeight) => SizedBox(height: headerHeight),
+          ),
+      () => ProjectSection(projects: projectsData),
       () => const SizedBox(
-        height: 500,
-      ),
+            height: 500,
+          ),
     ];
 
     return Scaffold(

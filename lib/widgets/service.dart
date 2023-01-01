@@ -172,6 +172,7 @@ class ServiceSection extends StatelessWidget {
             },
             stream: context.bloc<ThemeBloc>().themeMode$,
           ),
+
         ],
       ),
     );
