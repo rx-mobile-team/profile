@@ -8,15 +8,14 @@ import 'package:hoc081098_portfolio/utils/screen_helper.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 const aboutTitle =
-    "I'm Petrus Nguyễn Thái Học, a Android, Flutter, iOS Developer, Technical blog writer and Open source lover";
+    'We are a Mobile Developer Team, develop applications on platforms like Android, iOS and cross-platform like Flutter';
 
 const aboutDetails =
-    'I have done my Information Technology graduation at Đà Nẵng University of Science and Technology. '
-    'I have been developing Mobile Apps for more than 4+ years now. '
-    'I have worked as a Team and as an Individual in various organization and launched the apps in Play Store. '
-    'In my free time I use to write Technical Blog in Medium and contribute to Open source community on Github. '
-    'Always love to learn new technologies and to succeed in an environment of growth and excellence'
-    ' and earn a job which provides me job satisfaction and self-development and help me achieve personal as well as organisational goals.';
+    '- We have 4+ years experiences to develop Android,iOS and Flutter applications. \n'
+    '- Performed technical designs and implementation of 10+ complex apps. \n'
+    '- Worked closely with marketing team, design team, and QC team to develop applications from scratch.\n'
+    '- We have launched the apps in Play Store. \n'
+    '- Always love to learn new technologies and to succeed in an environment of growth and excellence.';
 
 class Technology {
   final String name;
@@ -83,7 +82,7 @@ class _AboutSection extends StatelessWidget {
                         height: 15.0,
                       ),
                       Text(
-                        'About Me',
+                        'About us',
                         style: GoogleFonts.josefinSans(
                           fontWeight: FontWeight.w900,
                           height: 1.3,

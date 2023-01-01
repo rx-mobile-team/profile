@@ -19,22 +19,10 @@ class SocialData {
 }
 
 const socialLoginItems = <SocialData>[
-  SocialData(
-    assetImagePath: 'assets/images/social/email.png',
-    url: 'mailto:hoc081098@gmail.com',
-  ),
-  SocialData(
-    assetImagePath: 'assets/images/social/linkedin-logo.png',
-    url: linkedInUrl,
-  ),
-  SocialData(
-    assetImagePath: 'assets/images/social/github.png',
-    url: githubUrl,
-  ),
-  SocialData(
-    assetImagePath: 'assets/images/social/medium.png',
-    url: mediumUrl,
-  ),
+  // SocialData(
+  //   assetImagePath: 'assets/images/social/email.png',
+  //   url: 'mailto:simplemobileapptools@gmail.com',
+  // ),
 ];
 
 class HomeInfo extends StatelessWidget {
@@ -158,7 +146,7 @@ class _NameInfo extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  'Mobile Developer',
+                  'Mobile App Solution',
                   style: GoogleFonts.josefinSans(
                     color: Theme.of(context).primaryColor,
                     fontWeight: FontWeight.w900,
@@ -170,7 +158,7 @@ class _NameInfo extends StatelessWidget {
                   height: 18.0,
                 ),
                 Text(
-                  'Petrus Nguyễn Thái Học'.toUpperCase(),
+                  'We are Rx Mobile Team'.toUpperCase(),
                   style: GoogleFonts.josefinSans(
                     fontSize: 36.0 * (isMobile ? 0.7 : 1.0),
                     fontWeight: FontWeight.w900,
@@ -184,7 +172,7 @@ class _NameInfo extends StatelessWidget {
                   height: 15.0,
                 ),
                 const Text(
-                  'Full-stack mobile software engineer',
+                  'We are full-stack mobile software engineers',
                   style: TextStyle(
                     color: kCaptionColor,
                     fontSize: 15.0,
@@ -208,7 +196,7 @@ class _NameInfo extends StatelessWidget {
                       width: 2,
                     ),
                     Text(
-                      'Da Nang, Vietnam',
+                      'Base in Hanoi, Vietnam',
                       style: TextStyle(
                         color: kCaptionColor,
                         fontSize: 15.0,
@@ -237,7 +225,7 @@ class _NameInfo extends StatelessWidget {
                           horizontal: 28.0,
                         ),
                         child: TextButton(
-                          onPressed: () => openUrl(linkedInUrl),
+                          onPressed: () => openUrl(mailto),
                           child: const Text(
                             "Let's Talk",
                             style: TextStyle(

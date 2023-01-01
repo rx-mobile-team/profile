@@ -75,7 +75,7 @@ class _HeaderLogo extends StatelessWidget {
       cursor: SystemMouseCursors.click,
       child: ClipOval(
         child: Image.asset(
-          'assets/images/logo.jpeg',
+          'assets/images/logo.png',
           height: 64,
         ),
       ),
@@ -92,22 +92,12 @@ class _HeaderName extends StatelessWidget {
       cursor: SystemMouseCursors.click,
       child: RichText(
         text: TextSpan(
-          text: 'hoc081098',
+          text: 'Rx Mobile Team',
           style: GoogleFonts.josefinSans(
             fontSize: 24,
             fontWeight: FontWeight.w500,
             color: Theme.of(context).primaryColor,
           ),
-          children: [
-            TextSpan(
-              text: '.dev',
-              style: GoogleFonts.josefinSans(
-                fontSize: 20,
-                fontWeight: FontWeight.w500,
-                color: Theme.of(context).colorScheme.onBackground,
-              ),
-            ),
-          ],
         ),
       ),
     );

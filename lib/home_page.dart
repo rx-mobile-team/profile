@@ -8,6 +8,7 @@ import 'package:hoc081098_portfolio/widgets/about.dart';
 import 'package:hoc081098_portfolio/widgets/header.dart';
 import 'package:hoc081098_portfolio/widgets/home_info.dart';
 import 'package:hoc081098_portfolio/widgets/measure_size.dart';
+import 'package:hoc081098_portfolio/widgets/service.dart';
 import 'package:hoc081098_portfolio/widgets/theme_switcher.dart';
 import 'package:rxdart_ext/rxdart_ext.dart';
 import 'package:flutter_disposebag/flutter_disposebag.dart';
@@ -49,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
             builder: (context, headerHeight) => SizedBox(height: headerHeight),
           ),
       () => const AboutSection(),
+      () => const ServiceSection(),
     ];
 
     return Scaffold(
