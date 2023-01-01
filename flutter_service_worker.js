@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "main.dart.js": "bef65cf3bb60a2b7f20b1ab896042d3d",
+  "main.dart.js": "908b38007cd11f7753f8822a8e698d4b",
 "canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
 "canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
@@ -14,7 +14,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
-"assets/AssetManifest.json": "e0ce79a2cd33718d6910edb6b7f41062",
+"assets/AssetManifest.json": "a0cd40133c6e6fb9f6d1926ae7d3be2c",
 "assets/shaders/ink_sparkle.frag": "ab4751ef630837e294889ca64470bb70",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
@@ -39,6 +39,7 @@ const RESOURCES = {
 "assets/assets/images/projects/1.jpeg": "8704aef3b5caf79771e0fa1e56707d35",
 "assets/assets/images/projects/4.jpeg": "e6d14f0b5985debf1be7edeccfd47d4b",
 "assets/assets/images/learn.png": "7827c9e2366da4aaeec20a4342b76953",
+"assets/assets/images/logo.png": "d5003cb48845d7dc1325eb6f6559c9f0",
 "assets/assets/images/social/whatsapp.png": "19455d676899e370bd5cc0bab6b41c6f",
 "assets/assets/images/social/github.png": "b37b05a713d8eebcbb475119e587859b",
 "assets/assets/images/social/linkedin.png": "898c0407d74c75fa110de76293d96ddd",
@@ -47,12 +48,12 @@ const RESOURCES = {
 "assets/assets/images/social/linkedin-logo.png": "95e6c045dd5f8ea3ed14fc2de308d115",
 "assets/assets/images/social/instagram.png": "4f7cb5fbb28d0f9ddc97641f8b288735",
 "assets/assets/images/blog.png": "383501168390c3833d9c81843c33d566",
-"assets/assets/images/logo.jpeg": "9d593356ce237fdbb6e99e5ed0f9b372",
+"assets/assets/images/logo.jpeg": "62119ce875ef90d0bf676987ea633478",
 "assets/assets/svg/guy.svg": "384b0cd380b8ce087e170fe5b3dc7f6b",
 "assets/assets/svg/person.svg": "00abbb5ba3e0acac159c8a7a664b7750",
 "assets/NOTICES": "995e07ac07fa0dc621718c1af3b1b54f",
-"index.html": "380ec3d8845110d709925f3d56c76945",
-"/": "380ec3d8845110d709925f3d56c76945",
+"index.html": "3966295284f864d99bc1575762125cb0",
+"/": "3966295284f864d99bc1575762125cb0",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "251f90cc845a222bbea7f987fe933088"
 };
