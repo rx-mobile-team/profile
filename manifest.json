@@ -1,11 +1,11 @@
 {
-    "name": "hoc081098_portfolio",
-    "short_name": "hoc081098_portfolio",
+    "name": "rx_mobile_team",
+    "short_name": "rx_mobile_team",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "hoc081098_portfolio",
+    "description": "rx mobile team",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
