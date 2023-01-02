@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "main.dart.js": "b0527878540e9a0fbeda8a3dbfb8759e",
+  "main.dart.js": "ceff8abbf1d2456220c38f2b36dc8336",
 "canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
 "canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
@@ -14,11 +14,12 @@ const RESOURCES = {
 "icons/Icon-512.png": "7b89a3ecc30ffe40da713c5c424d52d0",
 "icons/Icon-192.png": "84ee8cc778c2a8d2cfe4f4a8555e5c7d",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
-"assets/AssetManifest.json": "8e350fe28a025a0db221f8b5858f5b6a",
+"assets/AssetManifest.json": "ec8bd7ac51083750f699dd2887f07cbf",
 "assets/shaders/ink_sparkle.frag": "ab4751ef630837e294889ca64470bb70",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/assets/images/hoc_avatar.jpeg": "9d593356ce237fdbb6e99e5ed0f9b372",
 "assets/assets/images/googleplay.png": "0cf1b2af37cf52589c5c6040b822d1c5",
 "assets/assets/images/develop.png": "723c47f15273f7013cacb03032b547c2",
 "assets/assets/images/vline.png": "76961b60ee75af93eccfe62bac975953",
@@ -54,11 +55,12 @@ const RESOURCES = {
 "assets/assets/images/ic_launcher-playstore.png": "bf3713c69151ac0013ba34bacabc0ea5",
 "assets/assets/images/blog.png": "383501168390c3833d9c81843c33d566",
 "assets/assets/images/logo.jpeg": "62119ce875ef90d0bf676987ea633478",
+"assets/assets/images/chung_avatar.png": "6b2d964d9621b705aae2c6e6734ee8e3",
 "assets/assets/svg/guy.svg": "384b0cd380b8ce087e170fe5b3dc7f6b",
 "assets/assets/svg/person.svg": "00abbb5ba3e0acac159c8a7a664b7750",
 "assets/NOTICES": "995e07ac07fa0dc621718c1af3b1b54f",
-"index.html": "ed72badc38694c94e479b565a6ae0696",
-"/": "ed72badc38694c94e479b565a6ae0696",
+"index.html": "a02dbd1a32adb4006c0162124fe7c85b",
+"/": "a02dbd1a32adb4006c0162124fe7c85b",
 "favicon.png": "4ad382679d23817ab77850af6b0e4c34",
 "version.json": "2d8234348a911776e97da4b8bcd3c863"
 };
