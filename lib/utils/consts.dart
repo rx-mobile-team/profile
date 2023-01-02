@@ -2,7 +2,7 @@ import 'package:rx_mobile_team/widgets/technology.dart';
 
 import '../widgets/project.dart';
 
-const mailto = 'mailto:simplemobileapptools@gmail.com/';
+const mailto = 'mailto:simplemobileapptools@gmail.com';
 
 List<ProjectModel> projectsData = [
   ProjectModel(
