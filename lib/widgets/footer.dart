@@ -30,31 +30,31 @@ final List<FooterItem> footerItems = [
       text1: 'Nam Tu Liem, Ha Noi',
       text2: 'VietNam',
       onTap: () {
-        openUrl('https://goo.gl/maps/aoDYRcdtpvexwKGw7');
+        openUrl(mapUrl);
       }),
   FooterItem(
       iconData: Icons.phone,
       title: 'PHONE',
-      text1: '+84989112136',
+      text1: phone,
       text2: '',
       onTap: () {
-        openUrl('tel:+84989112136');
+        openUrl(telPhoneUrl);
       }),
   FooterItem(
       iconData: Icons.mail,
       title: 'EMAIL',
-      text1: 'simplemobileapptools@gmail.com',
+      text1: email,
       text2: '',
       onTap: () {
-        openUrl(mailto);
+        openUrl(mailtoUrl);
       }),
   FooterItem(
       iconData: Icons.sms,
       title: 'TELEGRAM',
-      text1: 'https://t.me/PetrusXXXX',
+      text1: 'Petrus Hoc',
       text2: '',
       onTap: () {
-        openUrl('https://t.me/PetrusXXXX');
+        openUrl(telegramUrl);
       })
 ];
 

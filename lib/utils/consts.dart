@@ -2,7 +2,15 @@ import 'package:rx_mobile_team/widgets/technology.dart';
 
 import '../widgets/project.dart';
 
-const mailto = 'mailto:simplemobileapptools@gmail.com';
+const email = 'simplemobileapptools@gmail.com';
+const mailtoUrl = 'mailto:$email';
+
+const phone = '+84989112136';
+const telPhoneUrl = 'tel:$phone';
+
+const mapUrl = 'https://goo.gl/maps/aoDYRcdtpvexwKGw7';
+const githubUrl = 'https://github.com/rx-mobile-team';
+const telegramUrl = 'https://t.me/PetrusXXXX';
 
 List<ProjectModel> projectsData = [
   ProjectModel(

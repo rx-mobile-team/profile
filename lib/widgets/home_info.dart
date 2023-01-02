@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_provider/flutter_provider.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:responsive_framework/responsive_framework.dart';
 import 'package:rx_mobile_team/main.dart';
 import 'package:rx_mobile_team/utils/consts.dart';
 import 'package:rx_mobile_team/utils/screen_helper.dart';
 import 'package:rx_mobile_team/utils/utils.dart';
-import 'package:responsive_framework/responsive_framework.dart';
 
 class SocialData {
   final String assetImagePath;
@@ -19,10 +19,14 @@ class SocialData {
 }
 
 const socialLoginItems = <SocialData>[
-  // SocialData(
-  //   assetImagePath: 'assets/images/social/email.png',
-  //   url: 'mailto:simplemobileapptools@gmail.com',
-  // ),
+  SocialData(
+    assetImagePath: 'assets/images/social/email.png',
+    url: mailtoUrl,
+  ),
+  SocialData(
+    assetImagePath: 'assets/images/social/github.png',
+    url: githubUrl,
+  ),
 ];
 
 class HomeInfo extends StatelessWidget {
@@ -225,7 +229,7 @@ class _NameInfo extends StatelessWidget {
                           horizontal: 28.0,
                         ),
                         child: TextButton(
-                          onPressed: () => openUrl(mailto),
+                          onPressed: () => openUrl(mailtoUrl),
                           child: const Text(
                             "Let's Talk",
                             style: TextStyle(
@@ -255,8 +259,8 @@ class _NameInfo extends StatelessWidget {
                         InkWell(
                           onTap: () => openUrl(e.url),
                           child: Container(
-                            width: 36,
-                            height: 36,
+                            width: 48,
+                            height: 48,
                             margin: const EdgeInsets.all(10),
                             child: Image.asset(
                               e.assetImagePath,
