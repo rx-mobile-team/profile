@@ -127,7 +127,7 @@ class ServiceSection extends StatelessWidget {
                             width: 200,
                             margin: const EdgeInsets.all(20),
                             decoration: BoxDecoration(
-                              color:  themeMode == ThemeMode.dark
+                              color: themeMode == ThemeMode.dark
                                   ? const Color.fromARGB(75, 12, 12, 7)
                                   : Colors.grey[50],
                               borderRadius: BorderRadius.circular(10),
@@ -172,7 +172,6 @@ class ServiceSection extends StatelessWidget {
             },
             stream: context.bloc<ThemeBloc>().themeMode$,
           ),
-
         ],
       ),
     );

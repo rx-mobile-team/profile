@@ -43,15 +43,15 @@ const musicLabImage = _projectsImages + "4.jpeg";
 const personalFaceImage = _projectsImages + "5.jpeg";
 const computerStoreImage = _projectsImages + "6.jpeg";
 
- List<ProjectModel> projectsData = [
+List<ProjectModel> projectsData = [
   ProjectModel(
     project: 'Cast to TV & Screen Mirroring',
     title: '',
     description:
-    'Cast to TV. It is an ad-free product. \nScreen Mirroring is a multifunctional screen casting application with simple operation and powerful functions',
+        'Cast to TV. It is an ad-free product. \nScreen Mirroring is a multifunctional screen casting application with simple operation and powerful functions',
     appPhotos: 'assets/images/ic_remote_app.jpg',
     projectLink:
-    'https://play.google.com/store/apps/details?id=com.vn.streamingtv.castscreen',
+        'https://play.google.com/store/apps/details?id=com.vn.streamingtv.castscreen',
     techUsed: [
       TechnologyConstants.android,
       TechnologyConstants.firebase,
@@ -64,10 +64,11 @@ const computerStoreImage = _projectsImages + "6.jpeg";
   ProjectModel(
     project: 'GPS speedometer Track distance',
     title: '',
-    description: 'Cast to TV. It is an ad-free product. \nScreen Mirroring is a multifunctional screen casting application with simple operation and powerful functions',
+    description:
+        'Cast to TV. It is an ad-free product. \nScreen Mirroring is a multifunctional screen casting application with simple operation and powerful functions',
     appPhotos: 'assets/images/ic_launcher-playstore.png',
     projectLink:
-    'https://play.google.com/store/apps/details?id=com.mobileappsdev98.gpsspeedometer.distancemeter.speedtracker',
+        'https://play.google.com/store/apps/details?id=com.mobileappsdev98.gpsspeedometer.distancemeter.speedtracker',
     techUsed: [
       TechnologyConstants.swift,
       TechnologyConstants.sceneKit,

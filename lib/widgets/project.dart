@@ -67,7 +67,6 @@ class ProjectModel {
     this.buttonText,
     this.links,
   });
-
 }
 
 class ProjectSection extends StatelessWidget {
@@ -231,7 +230,7 @@ class ProjectSection extends StatelessWidget {
                                       child: Center(
                                         child: Text(
                                           (projectModel.buttonText ??
-                                                  'Explore MORE'),
+                                              'Explore MORE'),
                                           style: const TextStyle(
                                             fontSize: 13.0,
                                             fontWeight: FontWeight.bold,
