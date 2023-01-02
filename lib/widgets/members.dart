@@ -43,7 +43,7 @@ const profiles = <ProfileModel>[
       Technology.reactiveX,
     ],
     link: 'https://hoanganhchung.vercel.app/#/',
-    cv: 'https://hoanganhchung.vercel.app/#/',
+    cv: 'https://drive.google.com/file/d/1h_RTrOIQlP0Xc0-jUc0Q6-zgeKvnHcfS/view?usp=sharing',
   ),
   ProfileModel(
     avatarPath: 'assets/images/hoc_avatar.jpeg',
