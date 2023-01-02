@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hoc081098_portfolio/utils/consts.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 import '../main.dart';
@@ -45,7 +46,7 @@ final List<FooterItem> footerItems = [
       text1: 'simplemobileapptools@gmail.com',
       text2: '',
       onTap: () {
-        openUrl('mailto:simplemobileapptools@gmail.com');
+        openUrl(mailto);
       }),
   FooterItem(
       iconData: Icons.sms,

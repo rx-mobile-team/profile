@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_pattern/flutter_bloc_pattern.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hoc081098_portfolio/main.dart';
 import 'package:hoc081098_portfolio/theme_bloc.dart';
+import 'package:hoc081098_portfolio/utils/screen_helper.dart';
+import 'package:hoc081098_portfolio/utils/utils.dart';
+import 'package:hoc081098_portfolio/widgets/technology.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
-
-import '../main.dart';
-import '../utils/consts.dart';
-import '../utils/screen_helper.dart';
-import '../utils/utils.dart';
 
 class LinkModel {
   final String title;
@@ -16,50 +15,17 @@ class LinkModel {
   LinkModel(this.title, this.url);
 }
 
-class TechnologyModel {
-  final String name;
-  final String logo;
-
-  TechnologyModel(this.name, this.logo);
-}
-
-class TechnologyConstants {
-  static TechnologyModel python = TechnologyModel("Python", pythonImage);
-  static TechnologyModel php = TechnologyModel("Python", phpImage);
-  static TechnologyModel flutter = TechnologyModel("Flutter", flutterImage);
-  static TechnologyModel flask = TechnologyModel("Flask", flaskImage);
-  static TechnologyModel firebase = TechnologyModel("Firebase", firebaseImage);
-  static TechnologyModel razorPay = TechnologyModel("Razor Pay", razorPayImage);
-  static TechnologyModel cPlus = TechnologyModel("C++", cPlusImage);
-  static TechnologyModel javascript =
-      TechnologyModel('Javascript', javascriptImage);
-  static TechnologyModel swift = TechnologyModel('Swift', swiftImage);
-  static TechnologyModel sceneKit = TechnologyModel('SceneKit', sceneKitImage);
-  static TechnologyModel android = TechnologyModel('Android', sceneKitImage);
-
-  static List<TechnologyModel> technologyLearned = [
-    flutter,
-    swift,
-    cPlus,
-    python,
-    javascript,
-    flask
-  ];
-}
-
 class ProjectModel {
   final String project;
-  final String title;
   final String description;
   final String appPhotos;
   final String projectLink;
-  final List<TechnologyModel> techUsed;
+  final List<Technology> techUsed;
   List<LinkModel>? links = [];
   final String? buttonText;
 
   ProjectModel({
     required this.project,
-    required this.title,
     required this.description,
     required this.appPhotos,
     required this.projectLink,
@@ -199,9 +165,9 @@ class ProjectSection extends StatelessWidget {
                                   .map((e) => Container(
                                         margin: const EdgeInsets.all(10),
                                         width: 25,
-                                        color: e.logo == razorPayImage
-                                            ? Colors.white
-                                            : null,
+                                        // color: e.logo == razorPayImage
+                                        //     ? Colors.white
+                                        //     : null,
                                         height: 25,
                                         child: Image.asset(e.logo),
                                       ))

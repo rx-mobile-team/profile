@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_pattern/flutter_bloc_pattern.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hoc081098_portfolio/main.dart';
 import 'package:hoc081098_portfolio/theme_bloc.dart';
 import 'package:hoc081098_portfolio/utils/screen_helper.dart';
+import 'package:hoc081098_portfolio/widgets/technology.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 const aboutTitle =
@@ -16,29 +16,6 @@ const aboutDetails =
     '- Worked closely with marketing team, design team, and QC team to develop applications from scratch.\n'
     '- We have launched the apps in Play Store. \n'
     '- Always love to learn new technologies and to succeed in an environment of growth and excellence.';
-
-class Technology {
-  final String name;
-  final String logo;
-
-  const Technology({
-    required this.name,
-    required this.logo,
-  });
-}
-
-const technologyLearned = <Technology>[
-  Technology(name: 'Android', logo: 'assets/images/technology/android.png'),
-  Technology(name: 'Flutter', logo: 'assets/images/technology/flutter.png'),
-  Technology(name: 'iOS', logo: 'assets/images/technology/apple.png'),
-  Technology(name: 'Kotlin', logo: 'assets/images/technology/kotlin.png'),
-  Technology(name: 'Swift', logo: 'assets/images/technology/swift.png'),
-  Technology(name: 'Dart', logo: 'assets/images/technology/dart.png'),
-  Technology(name: 'ReactiveX', logo: 'assets/images/technology/rx.png'),
-  Technology(name: 'Firebase', logo: 'assets/images/technology/firebase.png'),
-  Technology(
-      name: 'Javascript', logo: 'assets/images/technology/javascript.png'),
-];
 
 class AboutSection extends StatelessWidget {
   const AboutSection({super.key});
@@ -115,7 +92,7 @@ class _AboutSection extends StatelessWidget {
                         height: 20.0,
                       ),
                       const Text(
-                        'Technology I have worked with',
+                        'Technology We have worked with',
                         style: TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeight.bold,
