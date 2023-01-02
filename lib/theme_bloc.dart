@@ -5,21 +5,26 @@ import 'package:rxdart_ext/state_stream.dart';
 class ThemeBloc extends DisposeCallbackBaseBloc {
   final StateStream<ThemeMode> themeMode$;
   final Func1<bool, void> changeThemeMode;
+  final Func0<void> toggleThemeMode;
 
   ThemeBloc._({
     required this.themeMode$,
     required this.changeThemeMode,
+    required this.toggleThemeMode,
     required Func0<void> dispose,
   }) : super(dispose);
 
   factory ThemeBloc() {
-    final themeModelS = StateSubject(ThemeMode.light);
+    final themeModeS = StateSubject(ThemeMode.light);
 
     return ThemeBloc._(
-      themeMode$: themeModelS,
+      themeMode$: themeModeS,
       changeThemeMode: (v) =>
-          themeModelS.add(v ? ThemeMode.dark : ThemeMode.light),
-      dispose: () => themeModelS.close(),
+          themeModeS.add(v ? ThemeMode.dark : ThemeMode.light),
+      toggleThemeMode: () => themeModeS.add(themeModeS.value == ThemeMode.dark
+          ? ThemeMode.light
+          : ThemeMode.dark),
+      dispose: themeModeS.close,
     );
   }
 }

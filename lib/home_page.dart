@@ -3,12 +3,14 @@ import 'package:flutter_bloc_pattern/flutter_bloc_pattern.dart';
 import 'package:flutter_disposebag/flutter_disposebag.dart';
 import 'package:flutter_provider/flutter_provider.dart';
 import 'package:rx_mobile_team/home_bloc.dart';
+import 'package:rx_mobile_team/theme_bloc.dart';
 import 'package:rx_mobile_team/utils/consts.dart';
 import 'package:rx_mobile_team/utils/globals.dart';
 import 'package:rx_mobile_team/widgets/about.dart';
 import 'package:rx_mobile_team/widgets/header.dart';
 import 'package:rx_mobile_team/widgets/home_info.dart';
 import 'package:rx_mobile_team/widgets/measure_size.dart';
+import 'package:rx_mobile_team/widgets/members.dart';
 import 'package:rx_mobile_team/widgets/project.dart';
 import 'package:rx_mobile_team/widgets/service.dart';
 import 'package:rx_mobile_team/widgets/theme_switcher.dart';
@@ -38,38 +40,30 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
         .disposedBy(bag);
   }
 
+  Widget extraSpacer() => RxStreamBuilder<double>(
+        stream: headerHeightS,
+        builder: (context, headerHeight) => SizedBox(height: headerHeight),
+      );
+
+  late final builders = [
+    extraSpacer,
+    () => const HomeInfo(),
+    extraSpacer,
+    () => const AboutSection(),
+    extraSpacer,
+    () => const MembersSection(),
+    extraSpacer,
+    () => const ServiceSection(),
+    extraSpacer,
+    () => const ProjectSection(projects: projectsData),
+    extraSpacer,
+    () => const Footer(),
+    () => const SizedBox(height: 50),
+  ];
+
   @override
   Widget build(BuildContext context) {
     final homeBloc = context.get<HomeBloc>();
-
-    final builders = [
-      () => RxStreamBuilder<double>(
-            stream: headerHeightS,
-            builder: (context, headerHeight) => SizedBox(height: headerHeight),
-          ),
-      () => const HomeInfo(),
-      () => RxStreamBuilder<double>(
-            stream: headerHeightS,
-            builder: (context, headerHeight) => SizedBox(height: headerHeight),
-          ),
-      () => const AboutSection(),
-      () => RxStreamBuilder<double>(
-            stream: headerHeightS,
-            builder: (context, headerHeight) => SizedBox(height: headerHeight),
-          ),
-      () => const ServiceSection(),
-      () => RxStreamBuilder<double>(
-            stream: headerHeightS,
-            builder: (context, headerHeight) => SizedBox(height: headerHeight),
-          ),
-      () => ProjectSection(projects: projectsData),
-      () => RxStreamBuilder<double>(
-            stream: headerHeightS,
-            builder: (context, headerHeight) => SizedBox(height: headerHeight),
-          ),
-      () => const Footer(),
-      () => const SizedBox(height: 150),
-    ];
 
     return Scaffold(
       key: Globals.shared.scaffoldKey,
@@ -86,6 +80,16 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
 
                 return ListTile(
                   onTap: () {
+                    if (headerItem.title == 'Theme') {
+                      final themeBloc = BlocProvider.of<ThemeBloc>(context);
+                      themeBloc.changeThemeMode(
+                        themeBloc.themeMode$.value == ThemeMode.dark
+                            ? false
+                            : true,
+                      );
+                      return;
+                    }
+
                     final scaffoldState =
                         Globals.shared.scaffoldKey.currentState;
                     if (scaffoldState != null &&

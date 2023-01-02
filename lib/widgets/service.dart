@@ -89,6 +89,7 @@ class ServiceSection extends StatelessWidget {
       minWidth: width,
       defaultScale: false,
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           const SizedBox(
@@ -101,6 +102,7 @@ class ServiceSection extends StatelessWidget {
               height: 1.3,
               fontSize: 35.0,
             ),
+            textAlign: TextAlign.center,
           ),
           const SizedBox(
             height: 5,
@@ -111,6 +113,7 @@ class ServiceSection extends StatelessWidget {
               color: kCaptionColor,
               fontSize: 15.0,
             ),
+            textAlign: TextAlign.center,
           ),
           SizedBox(
             height: ScreenHelper.isDesktop(context) ? 50 : 20,

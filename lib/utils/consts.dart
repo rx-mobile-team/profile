@@ -12,7 +12,7 @@ const mapUrl = 'https://goo.gl/maps/aoDYRcdtpvexwKGw7';
 const githubUrl = 'https://github.com/rx-mobile-team';
 const telegramUrl = 'https://t.me/PetrusXXXX';
 
-List<ProjectModel> projectsData = [
+const List<ProjectModel> projectsData = [
   ProjectModel(
     project: 'Cast to TV & Screen Mirroring',
     description:

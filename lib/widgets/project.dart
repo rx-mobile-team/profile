@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_pattern/flutter_bloc_pattern.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:rx_mobile_team/main.dart';
 import 'package:rx_mobile_team/theme_bloc.dart';
 import 'package:rx_mobile_team/utils/screen_helper.dart';
 import 'package:rx_mobile_team/utils/utils.dart';
 import 'package:rx_mobile_team/widgets/technology.dart';
-import 'package:responsive_framework/responsive_wrapper.dart';
 
 class LinkModel {
   final String title;
@@ -21,10 +21,10 @@ class ProjectModel {
   final String appPhotos;
   final String projectLink;
   final List<Technology> techUsed;
-  List<LinkModel>? links = [];
+  final List<LinkModel>? links;
   final String? buttonText;
 
-  ProjectModel({
+  const ProjectModel({
     required this.project,
     required this.description,
     required this.appPhotos,

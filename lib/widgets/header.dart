@@ -10,10 +10,10 @@ import 'package:responsive_framework/responsive_framework.dart';
 final headerItems = <HeaderItem>[
   HeaderItem(title: 'Home', iconData: Icons.home, onTap: () {}),
   HeaderItem(title: 'About', iconData: Icons.info, onTap: () {}),
+  HeaderItem(title: 'Members', iconData: Icons.person, onTap: () {}),
   HeaderItem(title: 'Services', iconData: Icons.school, onTap: () {}),
   HeaderItem(title: 'Our work', iconData: Icons.work, onTap: () {}),
   HeaderItem(title: 'Contact', iconData: Icons.email, onTap: () {}),
-  HeaderItem(title: 'Blogs', iconData: Icons.article, onTap: () {}),
   HeaderItem(title: 'Theme', iconData: Icons.light_mode_outlined, onTap: () {}),
 ];
 
