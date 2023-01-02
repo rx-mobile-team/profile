@@ -1,3 +1,3 @@
-# hoc081098_portfolio
-## https://hoc081098.github.io/rx_mobile_team/
+# rx-mobile-team
+## https://rx-mobile-team.github.io/rx-mobile-team/
 
