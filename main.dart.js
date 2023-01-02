@@ -64444,7 +64444,7 @@ A.ag3.prototype={
 $0(){A.ju("tel:+84989112136")},
 $S:0}
 A.ag4.prototype={
-$0(){A.ju("mailto:simplemobileapptools@gmail.com/")},
+$0(){A.ju("mailto:simplemobileapptools@gmail.com")},
 $S:0}
 A.ag5.prototype={
 $0(){A.ju("https://t.me/PetrusXXXX")},
@@ -64591,7 +64591,7 @@ p=A.a([],o)
 for(n=0;!1;++n){m=B.H7[n]
 p.push(A.w4(!1,!0,A.cs(l,A.vS(m.ga5A(),A.b4(a).fy,l,l),l,l,l,36,B.mH,l,36),l,!0,l,l,l,l,l,l,l,l,l,new A.aci(m),l,l,l,l))}return A.e3(A.lY(B.bk,A.a([A.kQ(A.kV(A.a([h,B.M7,s,B.vV,B.QI,B.ce,g,B.eC,r,B.eC,A.k_(A.h0(p,j,q,B.F),B.aH,l,l,l)],o),i,B.aR,B.hf),l,l)],o),B.bf),k,l)}}
 A.ach.prototype={
-$0(){return A.ju("mailto:simplemobileapptools@gmail.com/")},
+$0(){return A.ju("mailto:simplemobileapptools@gmail.com")},
 $S:0}
 A.aci.prototype={
 $0(){var s=this.a
