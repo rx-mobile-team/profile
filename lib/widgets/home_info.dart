@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_provider/flutter_provider.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hoc081098_portfolio/main.dart';
-import 'package:hoc081098_portfolio/utils/consts.dart';
-import 'package:hoc081098_portfolio/utils/screen_helper.dart';
-import 'package:hoc081098_portfolio/utils/utils.dart';
+import 'package:rx_mobile_team/main.dart';
+import 'package:rx_mobile_team/utils/consts.dart';
+import 'package:rx_mobile_team/utils/screen_helper.dart';
+import 'package:rx_mobile_team/utils/utils.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 class SocialData {

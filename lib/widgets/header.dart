@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_provider/flutter_provider.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hoc081098_portfolio/home_bloc.dart';
-import 'package:hoc081098_portfolio/utils/globals.dart';
-import 'package:hoc081098_portfolio/utils/screen_helper.dart';
-import 'package:hoc081098_portfolio/widgets/theme_switcher.dart';
+import 'package:rx_mobile_team/home_bloc.dart';
+import 'package:rx_mobile_team/utils/globals.dart';
+import 'package:rx_mobile_team/utils/screen_helper.dart';
+import 'package:rx_mobile_team/widgets/theme_switcher.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 final headerItems = <HeaderItem>[

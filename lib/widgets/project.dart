@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_pattern/flutter_bloc_pattern.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hoc081098_portfolio/main.dart';
-import 'package:hoc081098_portfolio/theme_bloc.dart';
-import 'package:hoc081098_portfolio/utils/screen_helper.dart';
-import 'package:hoc081098_portfolio/utils/utils.dart';
-import 'package:hoc081098_portfolio/widgets/technology.dart';
+import 'package:rx_mobile_team/main.dart';
+import 'package:rx_mobile_team/theme_bloc.dart';
+import 'package:rx_mobile_team/utils/screen_helper.dart';
+import 'package:rx_mobile_team/utils/utils.dart';
+import 'package:rx_mobile_team/widgets/technology.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 
 class LinkModel {

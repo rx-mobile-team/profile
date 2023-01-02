@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_pattern/flutter_bloc_pattern.dart';
-import 'package:hoc081098_portfolio/widgets/header.dart';
+import 'package:rx_mobile_team/widgets/header.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class HomeBloc implements BaseBloc {

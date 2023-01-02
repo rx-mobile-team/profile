@@ -3,9 +3,9 @@ import 'package:flutter_bloc_pattern/flutter_bloc_pattern.dart';
 import 'package:flutter_provider/flutter_provider.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hoc081098_portfolio/home_bloc.dart';
-import 'package:hoc081098_portfolio/home_page.dart';
-import 'package:hoc081098_portfolio/theme_bloc.dart';
+import 'package:rx_mobile_team/home_bloc.dart';
+import 'package:rx_mobile_team/home_page.dart';
+import 'package:rx_mobile_team/theme_bloc.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 const Color kPrimaryColor = Color(0xFF7d1c4e);

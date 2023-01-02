@@ -1,4 +1,4 @@
-import 'package:hoc081098_portfolio/widgets/technology.dart';
+import 'package:rx_mobile_team/widgets/technology.dart';
 
 import '../widgets/project.dart';
 
