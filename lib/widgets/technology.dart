@@ -25,6 +25,10 @@ class Technology {
       name: 'Firebase', logo: 'assets/images/technology/firebase.png');
   static const js = Technology(
       name: 'Javascript', logo: 'assets/images/technology/javascript.png');
+  static const nestJS =
+      Technology(name: 'NestJS', logo: 'assets/images/technology/nestJS.png');
+  static const agora =
+      Technology(name: 'Agora', logo: 'assets/images/technology/agora.png');
 }
 
 const technologyLearned = <Technology>[
@@ -37,4 +41,6 @@ const technologyLearned = <Technology>[
   Technology.reactiveX,
   Technology.firebase,
   Technology.js,
+  Technology.nestJS,
+  Technology.agora,
 ];

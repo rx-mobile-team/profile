@@ -36,17 +36,21 @@ List<ProjectModel> projectsData = [
     ],
     buttonText: 'Play Store',
   ),
-  // ProjectModel(
-  //   project: "Flutter App",
-  //   title: "News Up App",
-  //   description:
-  //       "This application is used basically for viewing different news. Launched the app in Amazon AppStore",
-  //   appPhotos: newsUpImage,
-  //   projectLink: "https://www.amazon.com/gp/product/B08669JDX7",
-  //   techUsed: [
-  //     TechnologyConstants.flutter,
-  //   ],
-  // ),
+  ProjectModel(
+    project: 'VDone',
+    description:
+        'A new online Video social network. This app allows you to live broadcast your special moments, chat live with friends or make video calls.',
+    appPhotos: 'assets/images/vline.png',
+    projectLink: 'https://play.google.com/store/apps/details?id=com.app.vlive',
+    techUsed: [
+      Technology.flutter,
+      Technology.dart,
+      Technology.reactiveX,
+      Technology.firebase,
+      Technology.agora,
+    ],
+    buttonText: 'Play Store',
+  ),
   // ProjectModel(
   //   project: "PHP Website",
   //   title: "Computer Store",
