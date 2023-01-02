@@ -57,8 +57,8 @@ const RESOURCES = {
 "assets/assets/svg/guy.svg": "384b0cd380b8ce087e170fe5b3dc7f6b",
 "assets/assets/svg/person.svg": "00abbb5ba3e0acac159c8a7a664b7750",
 "assets/NOTICES": "995e07ac07fa0dc621718c1af3b1b54f",
-"index.html": "b382307d2c77f2b68813551f590d7d1b",
-"/": "b382307d2c77f2b68813551f590d7d1b",
+"index.html": "a2adf11b600ea0e94508ec9057f57cb9",
+"/": "a2adf11b600ea0e94508ec9057f57cb9",
 "favicon.png": "4ad382679d23817ab77850af6b0e4c34",
 "version.json": "251f90cc845a222bbea7f987fe933088"
 };
