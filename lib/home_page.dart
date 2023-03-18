@@ -19,6 +19,8 @@ import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 import 'widgets/footer.dart';
 
+const countUrl = 'https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frx-mobile-team%2Fprofile&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com';
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
@@ -59,6 +61,7 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
     extraSpacer,
     () => const Footer(),
     () => const SizedBox(height: 50),
+    () => Image.network(countUrl),
   ];
 
   @override
