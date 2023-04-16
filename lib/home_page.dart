@@ -61,7 +61,6 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
     extraSpacer,
     () => const Footer(),
     () => const SizedBox(height: 50),
-    () => Image.network(countUrl),
   ];
 
   @override
@@ -126,6 +125,7 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
       ),
       body: Stack(
         children: [
+          Image.network(countUrl),
           Positioned.fill(
             child: ScrollablePositionedList.builder(
               itemPositionsListener: homeBloc.itemPositionsListener,
