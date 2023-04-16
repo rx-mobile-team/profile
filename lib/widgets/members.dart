@@ -107,7 +107,7 @@ Widget _buildUi(double width, BuildContext context) {
         height: 20,
       ),
       Text(
-        'Our Members',
+        'Our Members (2 members)',
         style: GoogleFonts.josefinSans(
           fontWeight: FontWeight.w900,
           height: 1.3,
