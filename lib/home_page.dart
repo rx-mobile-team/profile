@@ -125,7 +125,12 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
       ),
       body: Stack(
         children: [
-          Image.network(countUrl),
+          Positioned.fill(
+            child: Image.network(
+              countUrl,
+              errorBuilder: (context, e, s) => SizedBox.shrink(),
+            )
+          ),
           Positioned.fill(
             child: ScrollablePositionedList.builder(
               itemPositionsListener: homeBloc.itemPositionsListener,
