@@ -129,13 +129,8 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
             child: Image.network(
               countUrl,
               errorBuilder: (context, e, s) => SizedBox.shrink(),
-            )
-          ),
-          Positioned.fill(
-            child: Container(
-              width: double.infinity,
-              height: double.infinity,
-              color: Theme.of(context).backgroundColor,
+              width: 1,
+              height: 1,
             )
           ),
           Positioned.fill(
