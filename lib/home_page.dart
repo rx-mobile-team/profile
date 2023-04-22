@@ -132,6 +132,13 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
             )
           ),
           Positioned.fill(
+            child: Container(
+              width: double.infinity,
+              height: double.infinity,
+              color: Theme.of(context).backgroundColor,
+            )
+          ),
+          Positioned.fill(
             child: ScrollablePositionedList.builder(
               itemPositionsListener: homeBloc.itemPositionsListener,
               itemScrollController: homeBloc.itemScrollController,
