@@ -1,8 +1,10 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_pattern/flutter_bloc_pattern.dart';
 import 'package:flutter_disposebag/flutter_disposebag.dart';
 import 'package:flutter_provider/flutter_provider.dart';
 import 'package:rx_mobile_team/home_bloc.dart';
+import 'package:rx_mobile_team/main.dart';
 import 'package:rx_mobile_team/theme_bloc.dart';
 import 'package:rx_mobile_team/utils/consts.dart';
 import 'package:rx_mobile_team/utils/globals.dart';
@@ -18,8 +20,6 @@ import 'package:rxdart_ext/rxdart_ext.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 import 'widgets/footer.dart';
-
-const countUrl = 'https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frx-mobile-team%2Fprofile&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
@@ -125,14 +125,15 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
       ),
       body: Stack(
         children: [
-          Positioned.fill(
-            child: Image.network(
-              countUrl,
-              errorBuilder: (context, e, s) => SizedBox.shrink(),
-              width: 1,
-              height: 1,
-            )
-          ),
+          if (kIsWeb)
+            Positioned.fill(
+              child: Image.network(
+                countUrl,
+                errorBuilder: (context, e, s) => const SizedBox.shrink(),
+                width: 1,
+                height: 1,
+              ),
+            ),
           Positioned.fill(
             child: ScrollablePositionedList.builder(
               itemPositionsListener: homeBloc.itemPositionsListener,
