@@ -46,7 +46,7 @@ const profiles = <ProfileModel>[
     cv: 'https://drive.google.com/file/d/1h_RTrOIQlP0Xc0-jUc0Q6-zgeKvnHcfS/view?usp=sharing',
   ),
   ProfileModel(
-    avatarPath: 'assets/images/hoc_avatar.jpeg',
+    avatarPath: 'assets/images/hoc_avatar.jpg',
     name: 'Nguyễn Thái Học (@hoc081098)',
     description: 'A full-stack mobile engineer, also a backend developer.\n'
         'I have 3+ years of experience, have a strong knowledge of Clean Architecture,'
@@ -81,14 +81,16 @@ class _Tablet extends StatelessWidget {
   const _Tablet({super.key});
 
   @override
-  Widget build(BuildContext context) => _buildUi(kTabletMaxWidth, context);
+  Widget build(BuildContext context) =>
+      _buildUi(kTabletMaxWidth * 0.85, context);
 }
 
 class _Desktop extends StatelessWidget {
   const _Desktop({super.key});
 
   @override
-  Widget build(BuildContext context) => _buildUi(kDesktopMaxWidth, context);
+  Widget build(BuildContext context) =>
+      _buildUi(kDesktopMaxWidth * 0.85, context);
 }
 
 class _Mobile extends StatelessWidget {
@@ -96,7 +98,7 @@ class _Mobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) =>
-      _buildUi(getMobileMaxWidth(context), context);
+      _buildUi(getMobileMaxWidth(context) * 0.85, context);
 }
 
 Widget _buildUi(double width, BuildContext context) {
@@ -161,7 +163,7 @@ Center _buildProfile(double width, ProfileModel profile) {
           height: ScreenHelper.isMobile(context)
               ? null
               : (MediaQuery.of(context).size.height *
-                  (ScreenHelper.isTablet(context) ? 0.65 : 0.5)),
+                  (ScreenHelper.isTablet(context) ? 0.7 : 0.6)),
           child: RxStreamBuilder<ThemeMode>(
             stream: context.bloc<ThemeBloc>().themeMode$,
             builder: (context, themeMode) {
@@ -215,13 +217,16 @@ Column _buildColumn(BuildContext context, ProfileModel profile) {
     crossAxisAlignment: CrossAxisAlignment.stretch,
     children: [
       if (ScreenHelper.isDesktop(context))
-        Text(
-          profile.name,
-          style: GoogleFonts.josefinSans(
-            fontWeight: FontWeight.w900,
-            height: 1.3,
-            fontSize: 28.0,
-            color: Theme.of(context).primaryColor,
+        SizedBox(
+          height: 80,
+          child: Text(
+            profile.name,
+            style: GoogleFonts.josefinSans(
+              fontWeight: FontWeight.w900,
+              height: 1.3,
+              fontSize: 28.0,
+              color: Theme.of(context).primaryColor,
+            ),
           ),
         )
       else
@@ -245,7 +250,7 @@ Column _buildColumn(BuildContext context, ProfileModel profile) {
             ? 200
             : ScreenHelper.isTablet(context)
                 ? 150
-                : 100,
+                : 120,
         child: Text(
           profile.description,
           style: const TextStyle(
@@ -312,25 +317,28 @@ Column _buildColumn(BuildContext context, ProfileModel profile) {
             ),
           ),
           const SizedBox(width: 30),
-          MouseRegion(
-            cursor: SystemMouseCursors.click,
-            child: Container(
-              decoration: BoxDecoration(
-                color: Theme.of(context).primaryColor,
-                borderRadius: BorderRadius.circular(8.0),
-              ),
-              height: 48.0,
-              padding: const EdgeInsets.symmetric(
-                horizontal: 28.0,
-              ),
-              child: TextButton(
-                onPressed: () => openUrl(profile.link),
-                child: const Center(
-                  child: Text(
-                    'MORE DETAILS',
-                    style: TextStyle(
-                      fontSize: 13.0,
-                      fontWeight: FontWeight.bold,
+          Expanded(
+            child: MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Theme.of(context).primaryColor,
+                  borderRadius: BorderRadius.circular(8.0),
+                ),
+                height: 48.0,
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 28.0,
+                ),
+                child: TextButton(
+                  onPressed: () => openUrl(profile.link),
+                  child: const Center(
+                    child: Text(
+                      'MORE DETAILS',
+                      style: TextStyle(
+                        fontSize: 13.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                      textAlign: TextAlign.center,
                     ),
                   ),
                 ),
