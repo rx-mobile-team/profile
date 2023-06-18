@@ -14,6 +14,44 @@ const telegramUrl = 'https://t.me/PetrusXXXX';
 
 const List<ProjectModel> projectsData = [
   ProjectModel(
+    project: 'Slide show',
+    description:
+        'An application for making video slideshows with music and photos, '
+        'creating video stories, editing videos with photos and music. '
+        'Using many effects/fitler/frame/sticker for video.'
+        'Using FFMPEG library for video processing, '
+        'Android Media Muxer, Android MediaCodec API OpenGL ES 2.0 for video rendering.',
+    appPhotos: 'assets/images/slideshow.png',
+    projectLink: '',
+    techUsed: [
+      Technology.android,
+      Technology.kotlin,
+      Technology.reactiveX,
+      Technology.firebase,
+      Technology.opengl,
+      Technology.ffmpeg,
+    ],
+    buttonText: 'Private link',
+  ),
+  ProjectModel(
+    project: 'Quiz app',
+    description:
+        'An quiz application, very useful for learning languages or other school subjects. '
+        'The application has many features such as: multiple choice questions, true/false questions, '
+        'fill in the blank questions, match the column questions, drag/drop questions, '
+        'listening questions.',
+    appPhotos: 'assets/images/quizapp.png',
+    projectLink: '',
+    techUsed: [
+      Technology.flutter,
+      Technology.dart,
+      Technology.reactiveX,
+      Technology.firebase,
+      Technology.bloc,
+    ],
+    buttonText: 'Private link',
+  ),
+  ProjectModel(
     project: 'Cast to TV & Screen Mirroring',
     description:
         'Cast to TV. It is an ad-free product. \nScreen Mirroring is a multifunctional screen casting application with simple operation and powerful functions',
@@ -49,37 +87,15 @@ const List<ProjectModel> projectsData = [
     description:
         'A new online Video social network. This app allows you to live broadcast your special moments, chat live with friends or make video calls.',
     appPhotos: 'assets/images/vline.png',
-    projectLink: 'https://play.google.com/store/apps/details?id=com.app.vlive',
+    projectLink: 'https://play.google.com/store/apps/details?id=com.app.vdone',
     techUsed: [
       Technology.flutter,
       Technology.dart,
       Technology.reactiveX,
       Technology.firebase,
       Technology.agora,
+      Technology.bloc,
     ],
     buttonText: 'Play Store',
   ),
-  // ProjectModel(
-  //   project: "PHP Website",
-  //   title: "Computer Store",
-  //   description:
-  //       "This is a complete online e-commerce website of selling computer and seperate admin panel is built for handling the order request and only payement is added.",
-  //   appPhotos: computerStoreImage,
-  //   projectLink: "https://github.com/AgnelSelvan/computer-store.git",
-  //   techUsed: [
-  //     TechnologyConstants.php,
-  //     TechnologyConstants.razorPay,
-  //   ],
-  // ),
-  // ProjectModel(
-  //   project: "Python",
-  //   title: "Personal Face and Emotion Recognition",
-  //   description:
-  //       "The model will recognize each face and identify their name based on the trained model. CNN is used for training the dataset.",
-  //   appPhotos: personalFaceImage,
-  //   projectLink: "https://github.com/AgnelSelvan/Emotion-Recognition.git",
-  //   techUsed: [
-  //     TechnologyConstants.python,
-  //   ],
-  // ),
 ];

@@ -29,6 +29,12 @@ class Technology {
       Technology(name: 'NestJS', logo: 'assets/images/technology/nestJS.png');
   static const agora =
       Technology(name: 'Agora', logo: 'assets/images/technology/agora.png');
+  static const ffmpeg =
+      Technology(name: 'FFMPEG', logo: 'assets/images/technology/ffmpeg.png');
+  static const opengl =
+      Technology(name: 'OpenGL', logo: 'assets/images/technology/opengl.png');
+  static const bloc =
+      Technology(name: 'Bloc', logo: 'assets/images/technology/bloc.png');
 }
 
 const technologyLearned = <Technology>[
@@ -43,4 +49,7 @@ const technologyLearned = <Technology>[
   Technology.js,
   Technology.nestJS,
   Technology.agora,
+  Technology.ffmpeg,
+  Technology.opengl,
+  Technology.bloc,
 ];
