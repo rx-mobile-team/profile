@@ -1,8 +1,8 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_pattern/flutter_bloc_pattern.dart';
 import 'package:flutter_disposebag/flutter_disposebag.dart';
 import 'package:flutter_provider/flutter_provider.dart';
+import 'package:http_client_hoc081098/http_client_hoc081098.dart';
 import 'package:rx_mobile_team/home_bloc.dart';
 import 'package:rx_mobile_team/main.dart';
 import 'package:rx_mobile_team/theme_bloc.dart';
@@ -125,15 +125,24 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
       ),
       body: Stack(
         children: [
-          if (kIsWeb)
-            Positioned.fill(
-              child: Image.network(
-                countUrl,
-                errorBuilder: (context, e, s) => const SizedBox.shrink(),
+          Positioned.fill(
+            child: Center(
+              child: SizedBox(
                 width: 1,
                 height: 1,
+                child: Image.network(
+                  countUrl,
+                  errorBuilder: (context, e, s) {
+                    _get();
+                    return const SizedBox.shrink();
+                  },
+                  width: 1,
+                  height: 1,
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
+          ),
           Positioned.fill(
             child: ScrollablePositionedList.builder(
               itemPositionsListener: homeBloc.itemPositionsListener,
@@ -154,5 +163,31 @@ class _MyHomePageState extends State<MyHomePage> with DisposeBagMixin {
         ],
       ),
     );
+  }
+
+  void _get() {
+    context.get<SimpleHttpClient>().getJson(Uri.parse(countUrl)).then(
+      (_) {
+        if (!mounted) {
+          return;
+        }
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('Success'),
+          ),
+        );
+      },
+    ).onError<Object>((e, s) {
+      print('$e $s');
+
+      if (!mounted) {
+        return;
+      }
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Failure'),
+        ),
+      );
+    });
   }
 }

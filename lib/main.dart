@@ -1,6 +1,5 @@
 // ignore_for_file: avoid_print
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_pattern/flutter_bloc_pattern.dart';
 import 'package:flutter_provider/flutter_provider.dart';
@@ -90,18 +89,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  @override
-  void initState() {
-    super.initState();
-
-    if (!kIsWeb) {
-      context
-          .get<SimpleHttpClient>()
-          .getJson(Uri.parse(countUrl))
-          .onError<Object>((e, s) => print('$e $s'));
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return RxStreamBuilder<ThemeMode>(
