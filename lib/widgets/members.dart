@@ -31,7 +31,7 @@ const profiles = <ProfileModel>[
     avatarPath: 'assets/images/chung_avatar.png',
     name: 'Hoàng Anh Chung (@hoangchungk53qx1)',
     description:
-        'I am a mobile developer with 4+ years of experience developing mobile apps.\n'
+        'I am a full-stack developer with 5+ years of experience developing mobile apps.\n'
         'I have developed through many complex applications related to fields such as livestream, social networking, photo editing, tools...',
     techUsed: [
       Technology.android,
