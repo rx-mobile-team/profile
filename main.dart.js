@@ -22653,7 +22653,7 @@ IT:function IT(a,b,c){this.e=a
 this.c=b
 this.a=c},
 aoK(a,b){var s=null,r=t.Rw
-return A.jf(A.a([B.bh,A.dd("Founder Members (@hoangchungk53qx1 and @hoc081098)",s,A.eg(s,35,B.a4,1.3,s),B.b_),B.j3,A.dd("Talent wins games, but teamwork and intelligence win championships.",s,A.eg(B.bp,15,s,s,s),B.b_),B.bh,new A.LW(B.ab,A.eL(A.N(new A.a2(B.Id,new A.ajB(a),r),!0,r.h("aO.E")),B.R,B.T,B.G),s)],t.p),B.bM,B.T,B.G)},
+return A.jf(A.a([B.bh,A.dd("Founder Members (@hoangchungk53qx1 and @hoc081098)",s,A.eg(s,35,B.a4,1.3,s),B.b_),B.j3,A.dd("Talent wins games, but teamwork and intelligence win championships.",s,A.eg(B.bp,15,s,s,s),B.b_),B.bh,new A.LW(B.ab,A.eL(A.N(new A.a2(B.I1,new A.ajB(a),r),!0,r.h("aO.E")),B.R,B.T,B.G),s)],t.p),B.bM,B.T,B.G)},
 aIu(a,b){return A.jc(new A.kF(new A.ajy(a,b),null),null,null)},
 avf(a,b){var s,r,q=null,p=t.p,o=A.a([],p),n=t.w
 if(A.aU(a,q,n).w.a.a>=1200)o.push(A.dc(A.dd(b.b,q,A.eg(A.aG(a).fr,28,B.a4,1.3,q),q),80,q))
@@ -32766,7 +32766,7 @@ k=t.f
 i=k.a(J.bd(k.a(B.bo.eC(b)),"data"))
 h=A.cR(J.bd(i,"message"))
 if(h!=null&&h.length!==0){g=A.anv(i,"assertiveness")
-q.Mx(h,B.I2[g==null?0:g])}f.e2(c,B.bo.bD(!0))
+q.Mx(h,B.I3[g==null?0:g])}f.e2(c,B.bo.bD(!0))
 return
 case"flutter/navigation":f.e.i(0,0).CA(b).aR(new A.a_y(f,c),t.P)
 f.to="/"
@@ -34272,7 +34272,7 @@ a_n(){var s=this,r=s.Q
 if(r==null){r=s.Q=new A.v6(s.r)
 r.d=new A.a_F(s)}return r},
 Qs(a){var s,r=this
-if(B.b.A(B.I4,a.type)){s=r.a_n()
+if(B.b.A(B.I5,a.type)){s=r.a_n()
 s.toString
 s.sBL(J.eV(r.r.$0(),B.hx))
 if(r.z!==B.lG){r.z=B.lG
@@ -44348,7 +44348,7 @@ j=q[4]
 i=q[5]
 h=q[6]
 g=q[7]
-for(f=n,r=0;r<64;++r,g=h,h=i,i=j,j=d,k=l,l=m,m=f,f=c){e=(g+(((j>>>6|j<<26)^(j>>>11|j<<21)^(j>>>25|j<<7))>>>0)>>>0)+(((j&i^~j&h)>>>0)+(B.Ic[r]+s[r]>>>0)>>>0)>>>0
+for(f=n,r=0;r<64;++r,g=h,h=i,i=j,j=d,k=l,l=m,m=f,f=c){e=(g+(((j>>>6|j<<26)^(j>>>11|j<<21)^(j>>>25|j<<7))>>>0)>>>0)+(((j&i^~j&h)>>>0)+(B.Id[r]+s[r]>>>0)>>>0)>>>0
 d=k+e>>>0
 c=e+((((f>>>2|f<<30)^(f>>>13|f<<19)^(f>>>22|f<<10))>>>0)+((f&m^f&l^m&l)>>>0)>>>0)>>>0}q[0]=f+n>>>0
 q[1]=m+q[1]>>>0
@@ -59935,7 +59935,7 @@ case 1:return A.T(q,r)}})
 return A.U($async$zE,r)},
 a_h(a,b){var s,r,q,p
 if(a===b)return B.IU
-if(a===B.e2&&b===B.cO)return B.I1
+if(a===B.e2&&b===B.cO)return B.I2
 s=A.a([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.cm(B.eH,a)
@@ -73314,7 +73314,7 @@ A.n3.prototype={
 J(a){return A.jc(new A.kF(new A.ad1(this),null),null,null)}}
 A.ad1.prototype={
 $2(a,b){var s,r,q,p=null,o=this.a.c,n=b.b>720,m=n?B.ab:B.a3,l=n?1:0,k=A.dd("About us",p,A.eg(p,35,B.a4,1.3,p),p),j=A.dd("We are a Mobile Developer Team, develop applications on platforms like Android, iOS and cross-platform like Flutter",p,A.eg(p,24,B.ai,1.3,p),p),i=t.p,h=A.a([],i)
-for(s=t._Q,r=t.FI,q=0;q<14;++q)h.push(new A.kJ(p,p,p,B.aG,new A.h3(new A.ad0(B.I6[q]),A.pY(a,!1,s).b,p,r),p))
+for(s=t._Q,r=t.FI,q=0;q<14;++q)h.push(new A.kJ(p,p,p,B.aG,new A.h3(new A.ad0(B.I7[q]),A.pY(a,!1,s).b,p,r),p))
 l=A.a([A.m3(A.jf(A.a([B.xe,k,B.dO,j,B.c6,B.V8,B.bh,B.Vg,B.c6,A.AS(B.b5,h,B.e_,B.b5,5,5),B.Pt],i),B.bM,B.aW,B.G),l),B.Po],i)
 if(A.aU(a,p,t.w).w.a.a>=1200||A.a8w(a)){k=n?1:0
 l.push(A.m3(A.o9("assets/images/logo.png",p,p,p,n?p:350),k))}return A.rI(B.bk,p,p,p,p,A.an7(l,B.R,m,p,B.T,B.G,p,p,B.bi),!1,p,p,!1,1,p,p,p,o,p,p,o,p,!0,!1)},
@@ -80599,9 +80599,9 @@ B.FT=new A.wy(0,"noOpinion")
 B.FU=new A.wy(1,"enabled")
 B.ek=new A.wy(2,"disabled")
 B.Y3=new A.qv(0)
-B.I3=A.a(s([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2126,0.7152,0.0722,0,0]),t.n)
+B.I4=A.a(s([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2126,0.7152,0.0722,0,0]),t.n)
 B.B6=new A.G4(1,"matrix")
-B.FV=new A.H2(null,null,B.I3,B.B6)
+B.FV=new A.H2(null,null,B.I4,B.B6)
 B.en=new A.a_X(0,"tight")
 B.XC=new A.Ce(!1,null)
 B.lA=new A.qA(1,B.en,B.XC,null)
@@ -80834,8 +80834,8 @@ B.HO=A.a(s([71,73,70,56,57,97]),t.Z)
 B.GQ=new A.kC(B.HO,"image/gif")
 B.Hr=A.a(s([255,216,255]),t.Z)
 B.GM=new A.kC(B.Hr,"image/jpeg")
-B.I7=A.a(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
-B.GO=new A.kC(B.I7,"image/webp")
+B.I8=A.a(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
+B.GO=new A.kC(B.I8,"image/webp")
 B.I_=A.a(s([66,77]),t.Z)
 B.GN=new A.kC(B.I_,"image/bmp")
 B.HP=A.a(s([B.GL,B.GP,B.GQ,B.GM,B.GO,B.GN]),A.a0("q<kC>"))
@@ -80847,11 +80847,6 @@ B.AV=new A.q6(1,"full")
 B.AW=new A.q6(2,"chromium")
 B.I0=A.a(s([B.AU,B.AV,B.AW]),A.a0("q<q6>"))
 B.m5=A.a(s([B.hI,B.ex,B.d8,B.eA,B.eE,B.cq,B.m3,B.hT,B.aC,B.eF,B.bW,B.d5,B.d6,B.ey,B.d7,B.hJ,B.bv,B.hK,B.hL,B.m1,B.aB,B.ez,B.d9,B.da,B.hM,B.hN,B.hO,B.hP,B.m2,B.hQ,B.hR,B.eB,B.db,B.dc,B.hS,B.eC,B.eD]),A.a0("q<br>"))
-B.eH=A.a(s([B.cO,B.e1,B.fP,B.fQ,B.e2]),t.QP)
-B.I1=A.a(s([B.cO]),t.QP)
-B.I2=A.a(s([B.fR,B.fS]),A.a0("q<vl>"))
-B.m6=A.a(s([0,4,12,1,5,13,3,7,15]),t.t)
-B.I4=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
 B.fp=new A.dC("Android","assets/images/technology/android.png")
 B.fq=new A.dC("Flutter","assets/images/technology/flutter.png")
 B.xm=new A.dC("iOS","assets/images/technology/apple.png")
@@ -80859,6 +80854,15 @@ B.fr=new A.dC("Kotlin","assets/images/technology/kotlin.png")
 B.xo=new A.dC("Swift","assets/images/technology/swift.png")
 B.fo=new A.dC("Dart","assets/images/technology/dart.png")
 B.cH=new A.dC("ReactiveX","assets/images/technology/rx.png")
+B.IH=A.a(s([B.fp,B.fq,B.xm,B.fr,B.xo,B.fo,B.cH]),t.I9)
+B.Nn=new A.mH("assets/images/chung_avatar.png","Ho\xe0ng Anh Chung (@hoangchungk53qx1)","I am a full-stack developer with 5+ years of experience developing mobile apps.\nI have developed through many complex applications related to fields such as livestream, social networking, photo editing, tools...","https://hoanganhchung.vercel.app/#/","https://drive.google.com/file/d/1h_RTrOIQlP0Xc0-jUc0Q6-zgeKvnHcfS/view?usp=sharing")
+B.No=new A.mH("assets/images/hoc_avatar.jpg","Nguy\u1ec5n Th\xe1i H\u1ecdc (@hoc081098)","A senior full-stack engineer,  mobile developer and backend developer.\nI have 5+ years of experience (since 2018), have a strong knowledge of Clean Architecture, MVVM, MVI, Reactive Programming, Kotlin/Android, Dart/Flutter, iOS/Swift.\nFocus on technical, clean code, good architecture and performance.","https://hoc081098.github.io/hoc081098_portfolio/","https://drive.google.com/file/d/1DXCgBNq8bQTqRDhwSTfr4wAgGDNuiKw4/view")
+B.I1=A.a(s([B.Nn,B.No]),A.a0("q<mH>"))
+B.eH=A.a(s([B.cO,B.e1,B.fP,B.fQ,B.e2]),t.QP)
+B.I2=A.a(s([B.cO]),t.QP)
+B.I3=A.a(s([B.fR,B.fS]),A.a0("q<vl>"))
+B.m6=A.a(s([0,4,12,1,5,13,3,7,15]),t.t)
+B.I5=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
 B.dQ=new A.dC("Firebase","assets/images/technology/firebase.png")
 B.QB=new A.dC("Javascript","assets/images/technology/javascript.png")
 B.QC=new A.dC("NestJS","assets/images/technology/nestJS.png")
@@ -80866,12 +80870,8 @@ B.xn=new A.dC("Agora","assets/images/technology/agora.png")
 B.xp=new A.dC("FFMPEG","assets/images/technology/ffmpeg.png")
 B.xl=new A.dC("OpenGL","assets/images/technology/opengl.png")
 B.ji=new A.dC("Bloc","assets/images/technology/bloc.png")
-B.I6=A.a(s([B.fp,B.fq,B.xm,B.fr,B.xo,B.fo,B.cH,B.dQ,B.QB,B.QC,B.xn,B.xp,B.xl,B.ji]),t.I9)
-B.Ic=A.a(s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298]),t.t)
-B.IH=A.a(s([B.fp,B.fq,B.xm,B.fr,B.xo,B.fo,B.cH]),t.I9)
-B.Nn=new A.mH("assets/images/chung_avatar.png","Ho\xe0ng Anh Chung (@hoangchungk53qx1)","I am a mobile developer with 4+ years of experience developing mobile apps.\nI have developed through many complex applications related to fields such as livestream, social networking, photo editing, tools...","https://hoanganhchung.vercel.app/#/","https://drive.google.com/file/d/1h_RTrOIQlP0Xc0-jUc0Q6-zgeKvnHcfS/view?usp=sharing")
-B.No=new A.mH("assets/images/hoc_avatar.jpg","Nguy\u1ec5n Th\xe1i H\u1ecdc (@hoc081098)","A senior full-stack engineer,  mobile developer and backend developer.\nI have 5+ years of experience (since 2018), have a strong knowledge of Clean Architecture, MVVM, MVI, Reactive Programming, Kotlin/Android, Dart/Flutter, iOS/Swift.\nFocus on technical, clean code, good architecture and performance.","https://hoc081098.github.io/hoc081098_portfolio/","https://drive.google.com/file/d/1DXCgBNq8bQTqRDhwSTfr4wAgGDNuiKw4/view")
-B.Id=A.a(s([B.Nn,B.No]),A.a0("q<mH>"))
+B.I7=A.a(s([B.fp,B.fq,B.xm,B.fr,B.xo,B.fo,B.cH,B.dQ,B.QB,B.QC,B.xn,B.xp,B.xl,B.ji]),t.I9)
+B.Id=A.a(s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298]),t.t)
 B.Ie=A.a(s([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0]),t.n)
 B.Jr=new A.mr("en","US")
 B.m7=A.a(s([B.Jr]),t.ss)
@@ -82033,24 +82033,24 @@ B.HV=A.a(s([54,null,null,8589935158]),t.Z)
 B.HW=A.a(s([55,null,null,8589935159]),t.Z)
 B.HX=A.a(s([56,null,null,8589935160]),t.Z)
 B.HY=A.a(s([57,null,null,8589935161]),t.Z)
-B.I8=A.a(s([8589934852,8589934852,8589934853,null]),t.Z)
+B.I9=A.a(s([8589934852,8589934852,8589934853,null]),t.Z)
 B.Hv=A.a(s([4294967555,null,4294967555,null]),t.Z)
 B.Hw=A.a(s([4294968065,null,null,8589935154]),t.Z)
 B.Hx=A.a(s([4294968066,null,null,8589935156]),t.Z)
 B.Hy=A.a(s([4294968067,null,null,8589935158]),t.Z)
 B.Hz=A.a(s([4294968068,null,null,8589935160]),t.Z)
 B.HE=A.a(s([4294968321,null,null,8589935157]),t.Z)
-B.I9=A.a(s([8589934848,8589934848,8589934849,null]),t.Z)
+B.Ia=A.a(s([8589934848,8589934848,8589934849,null]),t.Z)
 B.Hu=A.a(s([4294967423,null,null,8589935150]),t.Z)
 B.HA=A.a(s([4294968069,null,null,8589935153]),t.Z)
 B.Ht=A.a(s([4294967309,null,null,8589935117]),t.Z)
 B.HB=A.a(s([4294968070,null,null,8589935159]),t.Z)
 B.HF=A.a(s([4294968327,null,null,8589935152]),t.Z)
-B.Ia=A.a(s([8589934854,8589934854,8589934855,null]),t.Z)
+B.Ib=A.a(s([8589934854,8589934854,8589934855,null]),t.Z)
 B.HC=A.a(s([4294968071,null,null,8589935155]),t.Z)
 B.HD=A.a(s([4294968072,null,null,8589935161]),t.Z)
-B.Ib=A.a(s([8589934850,8589934850,8589934851,null]),t.Z)
-B.rh=new A.c7(["*",B.HG,"+",B.HH,"-",B.HI,".",B.HJ,"/",B.HK,"0",B.HL,"1",B.HM,"2",B.HR,"3",B.HS,"4",B.HT,"5",B.HU,"6",B.HV,"7",B.HW,"8",B.HX,"9",B.HY,"Alt",B.I8,"AltGraph",B.Hv,"ArrowDown",B.Hw,"ArrowLeft",B.Hx,"ArrowRight",B.Hy,"ArrowUp",B.Hz,"Clear",B.HE,"Control",B.I9,"Delete",B.Hu,"End",B.HA,"Enter",B.Ht,"Home",B.HB,"Insert",B.HF,"Meta",B.Ia,"PageDown",B.HC,"PageUp",B.HD,"Shift",B.Ib],A.a0("c7<i,n<j?>>"))
+B.Ic=A.a(s([8589934850,8589934850,8589934851,null]),t.Z)
+B.rh=new A.c7(["*",B.HG,"+",B.HH,"-",B.HI,".",B.HJ,"/",B.HK,"0",B.HL,"1",B.HM,"2",B.HR,"3",B.HS,"4",B.HT,"5",B.HU,"6",B.HV,"7",B.HW,"8",B.HX,"9",B.HY,"Alt",B.I9,"AltGraph",B.Hv,"ArrowDown",B.Hw,"ArrowLeft",B.Hx,"ArrowRight",B.Hy,"ArrowUp",B.Hz,"Clear",B.HE,"Control",B.Ia,"Delete",B.Hu,"End",B.HA,"Enter",B.Ht,"Home",B.HB,"Insert",B.HF,"Meta",B.Ib,"PageDown",B.HC,"PageUp",B.HD,"Shift",B.Ic],A.a0("c7<i,n<j?>>"))
 B.J9=A.a(s([B.mp,null,null,B.r5]),t.L)
 B.Ja=A.a(s([B.qS,null,null,B.r6]),t.L)
 B.Jb=A.a(s([B.qT,null,null,B.r7]),t.L)
@@ -83003,8 +83003,8 @@ B.WH=new A.Ba(0,"inside")
 B.WI=new A.Ba(1,"higher")
 B.WJ=new A.Ba(2,"lower")
 B.EK=new A.x(67108864)
-B.I5=A.a(s([B.EK,B.a0]),t.t_)
-B.WK=new A.iW(B.I5)
+B.I6=A.a(s([B.EK,B.a0]),t.t_)
+B.WK=new A.iW(B.I6)
 B.WL=new A.iW(null)
 B.WM=new A.k4(0,"size")
 B.xY=new A.k4(1,"images")
