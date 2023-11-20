@@ -48,8 +48,8 @@ const profiles = <ProfileModel>[
   ProfileModel(
     avatarPath: 'assets/images/hoc_avatar.jpg',
     name: 'Nguyễn Thái Học (@hoc081098)',
-    description: 'A full-stack mobile engineer, also a backend developer.\n'
-        'I have 4+ years of experience (since 2018), have a strong knowledge of Clean Architecture,'
+    description: 'A senior full-stack engineer,  mobile developer and backend developer.\n'
+        'I have 5+ years of experience (since 2018), have a strong knowledge of Clean Architecture,'
         ' MVVM, MVI, Reactive Programming, Kotlin/Android, Dart/Flutter, iOS/Swift.\n'
         'Focus on technical, clean code, good architecture and performance.',
     techUsed: [
@@ -109,7 +109,7 @@ Widget _buildUi(double width, BuildContext context) {
         height: 20,
       ),
       Text(
-        'Our Members (2 members)',
+        'Founder Members (@hoangchungk53qx1 and @hoc081098)',
         style: GoogleFonts.josefinSans(
           fontWeight: FontWeight.w900,
           height: 1.3,
