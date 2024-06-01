@@ -31,7 +31,7 @@ const profiles = <ProfileModel>[
     avatarPath: 'assets/images/chung_avatar.png',
     name: 'Hoàng Anh Chung (@hoangchungk53qx1)',
     description:
-        'I am a full-stack developer with 5+ years of experience developing mobile apps.\n'
+        'I am a full-stack developer with 6+ years of experience developing mobile apps.\n'
         'I have developed through many complex applications related to fields such as livestream, social networking, photo editing, tools...',
     techUsed: [
       Technology.android,
@@ -49,7 +49,7 @@ const profiles = <ProfileModel>[
     avatarPath: 'assets/images/hoc_avatar.jpg',
     name: 'Nguyễn Thái Học (@hoc081098)',
     description: 'A senior full-stack engineer,  mobile developer and backend developer.\n'
-        'I have 5+ years of experience (since 2018), have a strong knowledge of Clean Architecture,'
+        'I have 6+ years of experience (since 2018), have a strong knowledge of Clean Architecture,'
         ' MVVM, MVI, Reactive Programming, Kotlin/Android, Dart/Flutter, iOS/Swift.\n'
         'Focus on technical, clean code, good architecture and performance.',
     techUsed: [

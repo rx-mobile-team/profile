@@ -11,7 +11,7 @@ const aboutTitle =
     'We are a Mobile Developer Team, develop applications on platforms like Android, iOS and cross-platform like Flutter';
 
 const aboutDetails =
-    '- We have 4+ years experiences to develop Android,iOS and Flutter applications. \n'
+    '- We have 6+ years experiences to develop Android,iOS and Flutter applications. \n'
     '- Performed technical designs and implementation of 10+ complex apps. \n'
     '- Worked closely with marketing team, design team, and QC team to develop applications from scratch.\n'
     '- We have launched the apps in Play Store. \n'
