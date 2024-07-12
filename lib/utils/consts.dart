@@ -10,7 +10,7 @@ const telPhoneUrl = 'tel:$phone';
 
 const mapUrl = 'https://goo.gl/maps/aoDYRcdtpvexwKGw7';
 const githubUrl = 'https://github.com/rx-mobile-team';
-const telegramUrl = 'https://t.me/PetrusXXXX';
+const telegramUrl = 'https://t.me/hoc081098';
 
 const List<ProjectModel> projectsData = [
   ProjectModel(
