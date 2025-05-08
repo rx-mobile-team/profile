@@ -8,7 +8,9 @@ import 'package:rx_mobile_team/widgets/technology.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 const aboutTitle =
-    'We are a Mobile Developer Team, develop applications on platforms like Android, iOS and cross-platform like Flutter';
+    'We are a Mobile Developer Team, develop applications on platforms like Android, iOS and cross-platform like Flutter'. \n
+    'We are available for Freelance work'
+;
 
 const aboutDetails =
     '- We have 7+ years of experience to develop Android, iOS and Flutter applications. \n'
@@ -16,6 +18,7 @@ const aboutDetails =
     '- Worked closely with marketing team, design team, and QC team to develop applications from scratch.\n'
     '- We have launched the apps in Play Store. \n'
     '- Always love to learn new technologies and to succeed in an environment of growth and excellence.';
+    '- Passionate about embracing cutting-edge technologies, thriving in dynamic environments, and achieving excellence through continuous growth.'
 
 class AboutSection extends StatelessWidget {
   const AboutSection({super.key});
