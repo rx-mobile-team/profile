@@ -8,9 +8,8 @@ import 'package:rx_mobile_team/widgets/technology.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 const aboutTitle =
-    'We are a Mobile Developer Team, develop applications on platforms like Android, iOS and cross-platform like Flutter'. \n
-    'We are available for Freelance work'
-;
+    'We are a Mobile Developer Team, develop applications on platforms like Android, iOS and cross-platform like Flutter. \n
+     We are available for Freelance work';
 
 const aboutDetails =
     '- We have 7+ years of experience to develop Android, iOS and Flutter applications. \n'
